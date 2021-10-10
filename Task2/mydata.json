@@ -1,0 +1,12 @@
+[
+    {
+        "firstname": "abc",
+        "lastName": "xyz",
+        "age": "23",
+        "designation": "Junior Programmer",
+        "language": "C++",
+        "email": "abc@gmail.com",
+        "password": "1234",
+        "image": ""
+    }
+]
