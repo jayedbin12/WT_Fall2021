@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.container{
+    background-color: gainsboro;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.container .texts{
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 500;
+    padding: 50px;
+    background-color: skyblue;
+}
+.texts h1{
+    text-align: center;
+}
+.texts h4{
+    text-align: center;
+    color: blue;
+}
+.container .dashboard{
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgb(30, 8, 50);
+}
+.dashboard p{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.title h2{
+    background-color: lightblue;
+    padding: 10px 10px;
+}
+.form{
+    padding-top: 10px;
+    display: flex;
+}
+hr{
+    padding: 10px;
+}
+.form tr{
+    background-color: yellow;
+}
+.button{
+    text-shadow: 2px 2px;
+}
+.button input{
+    background-color: rgb(70, 70, 187);
+    padding: 10px;
+    font-weight: 600;
+}
